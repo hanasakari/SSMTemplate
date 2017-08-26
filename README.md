@@ -1,4 +1,6 @@
-# SSM_Template
+<h1>ChatRecordVisualization</h1>
+<h2>author : Zhou Jie</h2>
+![image](https://github.com/1316151417/ChatRecordVisualization/blob/master/resource/show.png)
 简介
 SSM框架模板，Restful架构风格、统一Json返回结果、Mybatis逆向工程、事务、上传下载、拦截器、Redis缓存等。
 复制粘贴就能开发项目，O(∩_∩)O哈哈~
