@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.springframework:spring-oxm:4.3.10.RELEASE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-oxm/4.3.10.RELEASE/aaf944a8e302a93452adc3fb65b076623e1c7961/spring-oxm-4.3.10.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-oxm/4.3.10.RELEASE/7eae425c269097600d6b12d9929a6985485fcab2/spring-oxm-4.3.10.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

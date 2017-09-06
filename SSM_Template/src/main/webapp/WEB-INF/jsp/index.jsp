@@ -19,5 +19,10 @@
 	<form action="download" method="get">
 		<input type="submit" value="测试下载">
 	</form>
+	<form action="user" method="post">
+		<label>id:</label><input type="text" name="id"><br/>
+		<label>name:</label><input type="text" name="name"><br/>
+		<input type="submit" value="添加用户">
+	</form>
 </body>
 </html>
