@@ -100,10 +100,10 @@ task mapperXmlCopy(type: Copy) {
 }
 
 task executeScript(type: Exec) {
-    workingDir './'
+    workingDir './script'
     commandLine 'python',"python.py"
 }
 
-//compileJava.mustRunAfter mapperXmlCopy
-war.mustRunAfter executeScript
-war.mustRunAfter mapperXmlCopy
+//compileJava.dependsOn mapperXmlCopy
+mapperXmlCopy.dependsOn executeScript
+war.dependsOn mapperXmlCopy

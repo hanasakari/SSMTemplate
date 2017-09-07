@@ -170,7 +170,7 @@ public class UserController {
 			String dirPath = request.getSession().getServletContext().getRealPath("files");
 			String datePath = "/2017/07/29";
 			String path = dirPath + datePath;
-			String fileName = "me.png";
+			String fileName = "qqvs.png";
 			File file = new File(path, fileName);
 			response.addHeader("Content-Disposition", "attachment;filename=" + fileName);
 			response.setContentType("multipart/form-data");
